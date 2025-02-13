@@ -288,6 +288,15 @@ i{
     cursor: pointer;
 }
 
+.icon i {
+    color: #E4405F; /* Instagram pink color */
+}
+
+.icon a:hover i {
+    color: #D12E51; /* Slightly darker pink on hover */
+}
+
+
 /* featured image */
 
 .featured-image{

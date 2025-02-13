@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="nav-log">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dark mode -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+            </nav>
+            <main class="wrapper">
+                <section class="featured-box" id="home">
+                    <div class="featured-text">
+                        <div class="hello">
+                            <p>Hello I'm</p>
+                        </div>
+                        <div class="featured-name">
+                            <span class="typedText"></span>
+                        </div>
+                        <div class="text-info">
+                            <p>My name is Kavin! I am a Full Stack Developer</p>
+                        </div>
+                    
+                        <div class="text-btn">
+                            <button onclick="window.location.href='mailto:kavinvelusamy2004@gmail.com'" class="btn hire-btn">Hire Me</button>
+                            <a href="Resume.pdf" download="Kavin_CV.pdf">
+                                <button class="btn">Download CV <i class="uil uil-file"></i></button>
+                            </a>
+                        </div>
+                        
+
+                        <div class="social_icons">
+                            <div class="icon_circle"></div>
+            
+                            <!-- Instagram -->
+                            <div class="icon">
+                                <a href="https://www.instagram.com/kavin.__v?igsh=MTlxYW83aTdqMWRkMw==" target="_blank">
+                                    <i class="uil uil-instagram"></i>
+                                </a>
+                            </div>
+            
+                            <!-- LinkedIn -->
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/kavin-velu/" target="_blank">
+                                    <i class="uil uil-linkedin-alt"></i>
+                                </a>
+                            </div>
+            
+                            <!-- X (Twitter) -->
+                            <div class="icon">
+                                <a href="https://x.com/KavinV940202" target="_blank">
+                                    <i class="fa-brands fa-x-twitter"></i> <!-- X (Twitter) icon -->
+                                </a>
+                            </div>
+            
+                            <!-- GitHub -->
+                            <div class="icon">
+                                <a href="https://github.com/Kavin2110701" target="_blank">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                            <img src="38569 - C.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            <!-- about box -->
+             <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                            <div class="about-info">
+                                <figure class="about-me">
+                                    <figcaption>
+                                        <img src="KAVIN..jpg" alt="" class="profile"/>
+                                        <h2>Web Developer</h2>
+                                        <p>My name is Kavin! I'm a passionate Full Stack Developer, eager to build dynamic and scalable web applications.</p>
+                                    </figcaption>
+                                </figure>
+                                <button class="about-me-btn">Hire me</button>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip">90%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per javascript">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">python</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per python">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-box">
+                                <span class="title">Reactjs</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per reactjs">
+                                        <span class="tooltip">60%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             </section>
+
+             <!-- Project box -->
+<section class="section" id="projects">
+    <div class="top-header">
+        <h1>Projects</h1>
+    </div>
+    <div class="project-container">
+        <div class="project-box">
+        
+            <h3>PG Accommodation System</h3>
+            <label>
+                – Built a web platform for suggesting PG accommodations based on user preferences using Flask and Python.<br>
+                – Implemented user-friendly interfaces and efficient data handling.<br>
+                – Used a Priority Queue for record storage and recommendations based on budget and proximity.
+            </label>
+        </div>
+        <div class="project-box">
+    
+            <h3>Automatic Resume Analyzer</h3>
+            <label>
+                – Designed an AI-driven application to analyze resumes, extracting skills and generating reports.<br>
+                – Utilized Natural Language Processing (NLP) techniques to process and evaluate resumes effectively.<br>
+                – Provided insights and recommendations for improving candidate resumes.
+            </label>
+        </div>
+        <div class="project-box">
+            
+            <h3>Portfolio Website</h3>
+            <label>
+                – Developed a personal portfolio website showcasing my skills, projects, and experience.<br>
+                – Built with HTML, CSS, JavaScript, and responsive design principles.<br>
+                – Integrated social media links, a contact form, and downloadable resume functionality.
+            </label>
+        </div>
+    </div>
+</section>
+
+              <!-- <contact box -->
+               <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span> I'm a passionate Full Stack Developer actively seeking job opportunities. Let's collaborate and build something amazing!</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email:kavinvelusamy2004@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone:9500645013</p>
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+               </section>
+        </main>
+        <!-- Footer -->
+         <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <!-- Instagram -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/kavin.__v?igsh=MTlxYW83aTdqMWRkMw==" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/kavin-velu/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <!-- X (Twitter) -->
+                <div class="icon">
+                    <a href="https://x.com/KavinV940202" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i> <!-- X (Twitter) icon -->
+                    </a>
+                </div>
+
+                <!-- GitHub -->
+                <div class="icon">
+                    <a href="https://github.com/Kavin2110701" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+               
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright & %copy;<a href="#home" style="text-decoration: none;">CodeCreators</a> - All rights reserved 2024</p>
+            </div>
+         </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
+
+

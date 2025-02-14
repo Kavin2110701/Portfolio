@@ -1,11 +1,12 @@
 function myMenuFunction (){
-    var menuBth = document.getElementById("myNavMenu");
+    var menuBtn = document.getElementById("myNavMenu");
 
-    if (menuBth.className === "nav-menu"){
-        menuBth.className += "responsive";
+    if (menuBtn.classList.contains("responsive")) {
+        menuBtn.classList.remove("responsive");
     } else {
-        menuBth.className = "nav-menu";
+        menuBtn.classList.add("responsive");
     }
+    
 }
 
 
